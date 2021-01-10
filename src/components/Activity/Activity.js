@@ -2,16 +2,15 @@ import React from 'react';
 import Tilt from 'react-parallax-tilt';
 import './Activity.css';
 
-export const Activity = () => {
+export const Activity = (props) => {
     return (
-    <Tilt>
+    
         <div className='activity container' id='activity container'>
-            <h2>Latest projects</h2>
-            <p>Project Name: {}</p>
-            <p>Project Date: {}</p>
+            <Tilt><h2>Latest projects</h2></Tilt>
+            <p>Project Name: {props.name}</p>
+            <p>Project Date: {props.date}</p>
             <p></p>
 
         </div>
-    </Tilt>
     )
 }

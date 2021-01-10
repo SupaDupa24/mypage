@@ -4,4 +4,8 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: #00CCFF;
+  color:black;
+  background-image: url('/src/components/assets/fibers.jpg')  no-repeat center center fixed;
+  display: flex;
 }
