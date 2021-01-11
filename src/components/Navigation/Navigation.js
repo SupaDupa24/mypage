@@ -28,7 +28,7 @@ export const Navigation = () => {
               <li>
                   <Link to="/projects">Projects</Link>
               </li>
-              <li id='special'>
+              <li>
                   <Link to="/blogspot">BlogSpot</Link>
               </li>
             </div>
