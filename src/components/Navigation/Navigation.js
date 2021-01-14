@@ -5,34 +5,37 @@ import { About } from '../../pages/About/About';
 import { Contact } from '../../pages/Contact/Contact';
 import { Projects } from '../../pages/Projects/Projects';
 import { BlogSpot } from '../../pages/BlogSpot/BlogSpot';
+import Logo from '../assets/Logo.png';
 import './Navigation.css';
 
 export const Navigation = () => {
     return (
-    <Router>
-         <ul className="topnav" id="myTopnav">
-              <li>
-                  <Link to="/">Home</Link>
-              </li>
-              <li>
-                  <Link to="/about">About</Link>
-              </li>
-              <li>
-                  <Link to="/contact">Contact</Link>
-              </li>
-              <li className='garage'>
-                  <Link to="/">IndeX Garge</Link>
-              </li>
-              
-            <div className='special'>
-              <li>
-                  <Link to="/projects">Projects</Link>
-              </li>
-              <li>
-                  <Link to="/blogspot">BlogSpot</Link>
-              </li>
-            </div>
-        </ul>
+    <Router> 
+        <ul className="topnav" id="myTopnav">
+          <img src={Logo} alt='logo' style={{width:100, height:50}}/>
+                <li>
+                    <Link to="/">Home</Link>
+                </li>
+                <li>
+                    <Link to="/about">About</Link>
+                </li>
+                <li>
+                    <Link to="/contact">Contact</Link>
+                </li>
+                <li className='garage'>
+                    <Link to="/">IndeX Garage</Link>
+                </li>
+                
+              <div className='special'>
+                <li>
+                    <Link to="/projects">Projects</Link>
+                </li>
+                <li>
+                    <Link to="/blogspot">BlogSpot</Link>
+                </li>
+              </div>
+          </ul>
+        
 
             <hr  />
         

@@ -5,11 +5,10 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #1C6EA4;
-  background: -moz-linear-gradient(left, #1C6EA4 0%, #2388CB 50%, #144E75 100%, .5);
-  background: -webkit-linear-gradient(left, #1C6EA4 0%, #2388CB 50%, #144E75 100% .5);
-  background: linear-gradient(to right, #1C6EA4 0%, #2388CB 50%, #144E75 100%, .5);;
+  
+  background: linear-gradient(to right, #1C6EA4 0%, #2388CB 50%, #144E75 100%, .9);;
   color:black;
-  background-image: url('/src/components/assets/fibers.jpg')  no-repeat center center fixed;
+  background-image: url('./components/assets/fibers.jpg')  no-repeat center center fixed;
   display: flex;
   align-items: center;
   justify-content: center;

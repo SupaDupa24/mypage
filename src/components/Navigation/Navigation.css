@@ -1,16 +1,18 @@
 .topnav {
     background-color: #333;
-    overflow: hidden;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    box-shadow: 0 10px 10px 10px rgba( 0, 0, 0, .2)
+    box-shadow: 0 10px 10px 10px rgba( 0, 0, 0, .2);
+    width: 800px;
+    max-width: 1250px;
+    display:inline block;
+    text-shadow: 2px 2px 2px;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
-    display: block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -24,16 +26,10 @@
     color: black;
   }
   
-  /* Add an active class to highlight the current page */
-  .topnav a.active {
-    background-color: #4CAF50;
-    color: white;
-  }
   
 .special {
     display:flex;
-    float:right;
-    align-items: flex-end;
+    background-color: dimgray;
     
 }
 
@@ -48,8 +44,15 @@
     background-color: black;
 }
 
-@media screen and (max-width: 600px) {
-   .garage {
-       display: none ;
-   }
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+
+@media (max-width: 600px) {
+  .topnav {
+    width: auto;
+  }
 }
