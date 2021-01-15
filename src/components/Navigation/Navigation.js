@@ -23,7 +23,7 @@ export const Navigation = () => {
                     <Link to="/contact">Contact</Link>
                 </li>
                 <li className='garage'>
-                    <Link to="/">IndeX Garage</Link>
+                    <Link to="/">INDEX GARAGE</Link>
                 </li>
                 
               <div className='special'>
@@ -34,6 +34,7 @@ export const Navigation = () => {
                     <Link to="/blogspot">BlogSpot</Link>
                 </li>
               </div>
+              <img src={Logo} alt='logo' style={{width:100, height:50}}/>
           </ul>
         
 
