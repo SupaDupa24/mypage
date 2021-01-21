@@ -1,14 +1,14 @@
 import React from 'react';
-import { Activity } from '../../components/Activity/Activity';
+import { Message } from '../../components/Message/Message';
 import { Hero } from '../../components/Hero/Hero';
 
 
 
 export const Home = () => {
     return (
-        <div>
+        <div id='home'>
             <Hero />
-            <Activity />
+            <Message />
             
         </div>
     )
