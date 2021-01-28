@@ -10,4 +10,5 @@ body {
   align-items: center;
   justify-content: center;
   background-size: cover;
+  box-sizing: border-box;
 }

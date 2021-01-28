@@ -1,13 +1,13 @@
 import React from 'react';
 import { Message } from '../../components/Message/Message';
-import { Hero } from '../../components/Hero/Hero';
+import JumbotronPage from '../../components/JumbotronPage/JumbotronPage';
 
 
 
 export const Home = () => {
     return (
         <div id='home'>
-            <Hero />
+            <JumbotronPage />
             <Message />
             
         </div>
