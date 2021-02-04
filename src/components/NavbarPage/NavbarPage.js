@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import {
 MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse,
-MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
+
 } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
+import './NavbarPage.css';
 
 class NavbarPage extends Component {
 state = {
@@ -25,26 +26,24 @@ render() {
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
           <MDBNavbarNav left>
             <MDBNavItem active>
-              <MDBNavLink to="/">HOME</MDBNavLink>
+              <MDBNavLink className='anime' to="/">HOME</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="/about">ABOUT</MDBNavLink>
+              <MDBNavLink className='anime' to="/about">ABOUT</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="/contact">CONTACT</MDBNavLink>
+              <MDBNavLink className='anime' to="/contact">CONTACT</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="/">INDEX GARAGE</MDBNavLink>
+              <MDBNavLink className='anime' to="/">INDEX GARAGE</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="/projects">PROJECTS</MDBNavLink>
+              <MDBNavLink className='anime' to="/projects">PROJECTS</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="/blogspot">BLOGSPOT</MDBNavLink>
+              <MDBNavLink className='anime' to="/blogspot">BLOGSPOT</MDBNavLink>
             </MDBNavItem>
-           
           </MDBNavbarNav>
-
         </MDBCollapse>
       </MDBNavbar>
     </Router>
