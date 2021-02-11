@@ -3,7 +3,7 @@ import {
 MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse,
 
 } from "mdbreact";
-import { BrowserRouter as Router } from 'react-router-dom';
+
 import './NavbarPage.css';
 
 class NavbarPage extends Component {
@@ -17,7 +17,7 @@ toggleCollapse = () => {
 
 render() {
   return (
-    <Router>
+    
       <MDBNavbar className='barbus' color="black" dark expand="md" >
         <MDBNavbarBrand>
           <strong className="white-text">I|G|X</strong>
@@ -46,7 +46,7 @@ render() {
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBNavbar>
-    </Router>
+    
     );
   }
 }
